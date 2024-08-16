@@ -1,0 +1,84 @@
+/* CARD CONTAINER */
+.card-conteiner{
+    justify-content: center;
+    margin: 10% auto;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* CARD */
+.card{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin: 50px auto;
+    box-shadow: 6px 6px 3px 3px rgb(201, 201, 201);
+    border-radius: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Membuat card sedikit membesar */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Memperbesar bayangan saat hover */
+}
+
+.card-body{
+    padding: 20px;
+}
+
+.card-img-in{
+    width: 40px;
+    height: 40px;
+    margin:  10px 10px 5px 10px;
+    /* object-fit: cover; */
+    /* padding: 20px; */
+    border-radius: 30px;
+    color: blue;
+    /* margin-top: 25px; */
+}
+
+
+.card-title{
+    text-decoration: none;
+    width: 100%;
+    color: black;
+}
+
+.card-text{
+    color: gray;
+}
+
+.btn-group{
+    gap: 10px;
+}
+
+.btn-green{
+    color: white;
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn-red{
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* CARD PLUS */
+
+.card-plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-plus{
+    width: 100px;
+}
